@@ -1,0 +1,72 @@
+/*Banner styling*/
+.banner {
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+}
+.slider-for {
+    /*Defines Slick slider*/
+    img {
+        height: 100vh;
+        width: 100vw;
+        object-fit: cover;
+    }
+}
+.banner-quote-div {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    position: absolute;
+    z-index: 2;
+    bottom: 10%;
+    left: 0;
+    width: 70%;
+    margin-left: 3rem;
+    color: #fff;
+    transition: all .5s ease-in-out .5s;
+    &:hover {
+        .arrow-right-wrapper {
+            svg.arrow-right {
+                animation-duration: 1s;
+            }
+        }
+    }
+    &.hidden {
+        opacity: 0;
+        left: -15%;
+    }
+    .banner-quote {
+        color: $white;
+        h2 {
+            font-size: 3rem;
+        }
+        p {
+            font-size: 2rem
+        }
+    }
+    
+    .arrow-right-wrapper {
+        svg.arrow-right {
+            position: relative;
+            width: auto;
+            height: 7rem;
+            right: 0;
+            fill: $white;
+            animation: pulse-right 3.2s infinite;
+        }
+    }
+}
+
+@keyframes pulse-right{
+    0% {
+        right: 0;
+    }
+    50% {
+        right: -4.8%;
+
+    }
+    100% {
+        right: 0%;
+
+    }
+}

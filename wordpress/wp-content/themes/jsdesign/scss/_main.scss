@@ -1,0 +1,79 @@
+/*
+Theme Name: JS Design
+Author: Jakub Szapowalow
+Description: A theme made for experimental purposes on 21.08.2019
+Version: 1.0
+*/
+
+/*
+Stops over scrolling
+*/
+html {
+    overflow: hidden;
+    height: 100%;
+}
+header {
+    width: 100%;
+}
+body {
+    height: 100%;
+    overflow: auto;
+}
+/*
+
+Main Website - CSS Styling
+
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+ul, li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h1 {
+    font-family: bebas-neue-v14-deprecated, sans-serif;
+    font-size: 90px;
+    color: inherit;
+}
+
+h2, h3, p, a {
+    font-family: realist, sans-serif;
+    color: inherit;
+    line-height: 1em
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+p {
+    font-size: 16px;
+}
+
+a {
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+}
+.script-text {
+    font-family: kinescope, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: $black;
+}
+.alt-text-1 {
+    font-family: industry-inc-3d, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.alt-text-2 {
+    font-family: industry-inc-outline, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

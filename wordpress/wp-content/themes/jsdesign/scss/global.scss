@@ -1,0 +1,20 @@
+/*
+Sass - npm run scss
+*/
+/*Import Utilities*/
+@import "vars";
+@import "main";
+@import "banner";
+
+/*Home Page*/
+/*@import "home-page-header"; Is in above-the-fold.scss*/
+@import "home-page";
+/*Sub-Page*/
+/*@import "sub-page-header"; Is in above-the-fold.scss*/
+@import "sub-page";
+@import "extra-content";
+@import "sub-page-catch-content";
+@import "footer";
+
+/* Old home-page catch-content (showcase elements)
+@import "catch-content";*/
